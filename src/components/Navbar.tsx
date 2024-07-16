@@ -32,13 +32,13 @@ const Navbar: React.FC = () => {
     <Nav>
       <NavList>
         <NavItem>
-          <NavLink to="/">Sobre mim</NavLink>
+          <NavLink to="/Portifolio">Sobre mim</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink to="/projects">Projetos</NavLink>
+          <NavLink to="/Portifolio/projects">Projetos</NavLink>
         </NavItem>
         <NavItem>
-          <NavLink to="/contact">Contato</NavLink>
+          <NavLink to="/Portifolio/contact">Contato</NavLink>
         </NavItem>
       </NavList>
     </Nav>
