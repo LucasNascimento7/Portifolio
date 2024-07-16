@@ -40,9 +40,9 @@ const App: React.FC = () => {
           {isDarkMode ? 'Modo claro' : 'Modo escuro'}
         </Button>
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/Portifolio" element={<Home />} />
+          <Route path="/Portifolio/projects" element={<Projects />} />
+          <Route path="/Portifolio/contact" element={<Contact />} />
         </Routes>
       </Router>
     </ThemeProvider>
