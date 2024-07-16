@@ -4,7 +4,6 @@ import ProjectCard from '../components/ProjectCard';
 
 const Container = styled.div`
 display: flex;
-  width: 100vh;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
@@ -15,7 +14,7 @@ flex-direction: column;
 
 const ProjectsGrid = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  
   gap: 20px;
   
 `;
