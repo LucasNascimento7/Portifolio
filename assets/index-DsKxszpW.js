@@ -109,7 +109,6 @@ Error generating stack: `+o.message+`
   }
 `,zA=({title:e,description:t})=>$.jsxs(VA,{children:[$.jsx("h3",{children:e}),$.jsx("p",{children:t})]}),BA=ye.div`
 display: flex;
-  width: 100vh;
   margin: 0 auto;
   padding: 20px;
   text-align: center;
@@ -118,7 +117,7 @@ justify-content: center;
 flex-direction: column;
 `,UA=ye.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  
   gap: 20px;
   
 `,WA=ye.a`
