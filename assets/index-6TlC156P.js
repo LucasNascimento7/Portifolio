@@ -187,7 +187,7 @@ attempted value: ${s}
    opacity: 0.6;
     
   }
-`,xF=()=>$.jsx(vF,{children:$.jsxs(SF,{children:[$.jsx(_u,{children:$.jsx(Au,{to:"/",children:"Sobre mim"})}),$.jsx(_u,{children:$.jsx(Au,{to:"/projects",children:"Projetos"})}),$.jsx(_u,{children:$.jsx(Au,{to:"/contact",children:"Contato"})})]})}),wF=ye.button`
+`,xF=()=>$.jsx(vF,{children:$.jsxs(SF,{children:[$.jsx(_u,{children:$.jsx(Au,{to:"/Portifolio",children:"Sobre mim"})}),$.jsx(_u,{children:$.jsx(Au,{to:"/Portifolio/projects",children:"Projetos"})}),$.jsx(_u,{children:$.jsx(Au,{to:"/Portifolio/contact",children:"Contato"})})]})}),wF=ye.button`
 
 border: none;
 background-color: gray;
