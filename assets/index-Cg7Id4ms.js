@@ -197,4 +197,4 @@ margin: 20px;
 width: 150px;
 
 
-`,TF=()=>{const[e,t]=w.useState(!1),n=()=>{t(!e)};return $.jsxs(mC,{theme:e?yF:gF,children:[$.jsx(SC,{}),$.jsxs(dE,{children:[$.jsx(xF,{}),$.jsx(wF,{onClick:n,children:e?"Modo claro":"Modo escuro"}),$.jsxs(oE,{children:[$.jsx(bs,{path:"/",element:$.jsx(NA,{})}),$.jsx(bs,{path:"/projects",element:$.jsx(KA,{})}),$.jsx(bs,{path:"/contact",element:$.jsx(mF,{})})]})]})]})};Ru.createRoot(document.getElementById("root")).render($.jsx(ot.StrictMode,{children:$.jsx(TF,{})}))});export default EF();
+`,TF=()=>{const[e,t]=w.useState(!1),n=()=>{t(!e)};return $.jsxs(mC,{theme:e?yF:gF,children:[$.jsx(SC,{}),$.jsxs(dE,{children:[$.jsx(xF,{}),$.jsx(wF,{onClick:n,children:e?"Modo claro":"Modo escuro"}),$.jsxs(oE,{children:[$.jsx(bs,{path:"/Portifolio",element:$.jsx(NA,{})}),$.jsx(bs,{path:"/Portifolio/projects",element:$.jsx(KA,{})}),$.jsx(bs,{path:"/Portifolio/contact",element:$.jsx(mF,{})})]})]})]})};Ru.createRoot(document.getElementById("root")).render($.jsx(ot.StrictMode,{children:$.jsx(TF,{})}))});export default EF();
