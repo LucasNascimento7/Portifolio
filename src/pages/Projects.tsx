@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import ProjectCard from '../components/ProjectCard';
+import { motion } from 'framer-motion'; 
 
 const Container = styled.div`
 display: flex;
@@ -10,6 +11,10 @@ display: flex;
 align-items: center;
 justify-content: center;
 flex-direction: column;
+`;
+
+const Section = styled(motion.section)`
+  margin-bottom: 40px;
 `;
 
 const ProjectsGrid = styled.div`
@@ -55,6 +60,11 @@ const projects = [
 const Projects: React.FC = () => {
   return (
     <Container>
+      <Section
+        initial={{ opacity: 0, y: 50 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+      >
       <H2>Meus Projetos</H2>
       <ProjectsGrid>
         {projects.map((project, index) => (
@@ -63,6 +73,7 @@ const Projects: React.FC = () => {
           </A>
         ))}
       </ProjectsGrid>
+      </Section>
     </Container>
   );
 };

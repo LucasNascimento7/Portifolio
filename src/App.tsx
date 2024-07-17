@@ -20,7 +20,7 @@ margin: 20px;
 width: 150px;
 margin-top: 70px;
 position: fixed;
-
+z-index: 2;
 `
 
 
