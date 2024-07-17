@@ -13,9 +13,10 @@ export const lightTheme: DefaultTheme = {
 
 export const darkTheme: DefaultTheme = {
   colors: {
-    
+    primary: '#fff',
     background: '#333',
     text: '#fff',
     accent: '#bb86fc',
+    
   },
 };

@@ -13,12 +13,13 @@ import Navbar from './components/Navbar';
 const Button = styled.button`
 
 border: none;
-background-color: gray;
+background-color: #808080c7;
 border-radius: 5px;
 height: 40px;
 margin: 20px;
 width: 150px;
-
+margin-top: 70px;
+position: fixed;
 
 `
 

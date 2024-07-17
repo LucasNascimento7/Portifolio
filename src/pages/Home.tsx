@@ -16,12 +16,14 @@ const Heading = styled.h2`
   font-size: 2em;
   margin-bottom: 20px;
   color: ${(props) => props.theme.colors.primary};
+  margin-top: 150px;
 `;
 
 const Text = styled.p`
   font-size: 1.2em;
   line-height: 1.6;
   color: ${(props) => props.theme.colors.text};
+  
 `;
 
 const Home: React.FC = () => {

@@ -1,10 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 import { Link } from 'react-router-dom';
+import { ThemeProvider } from 'styled-components';
+import { lightTheme, darkTheme } from '../styles/themes';
+import { useState } from 'react';
 
 const Nav = styled.nav`
-  background-color: ${(props) => props.theme.colors.primary};
+display: flex;
+align-items: center;
+justify-content: center;
+  background-color: gray;
   padding: 10px 20px;
+  width: 100%;
+  position: fixed;
 `;
 
 const NavList = styled.ul`
@@ -28,20 +36,27 @@ const NavLink = styled(Link)`
 `;
 
 const Navbar: React.FC = () => {
+
+  const [isDarkMode] = useState(false);
+
+
+
   return (
-    <Nav>
-      <NavList>
-        <NavItem>
-          <NavLink to="/Portifolio">Sobre mim</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink to="/Portifolio/projects">Projetos</NavLink>
-        </NavItem>
-        <NavItem>
-          <NavLink to="/Portifolio/contact">Contato</NavLink>
-        </NavItem>
-      </NavList>
-    </Nav>
+    <ThemeProvider theme={isDarkMode ? darkTheme : lightTheme}>
+      <Nav >
+        <NavList>
+          <NavItem>
+            <NavLink to="/Portifolio">Sobre mim</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to="/Portifolio/projects">Projetos</NavLink>
+          </NavItem>
+          <NavItem>
+            <NavLink to="/Portifolio/contact">Contato</NavLink>
+          </NavItem>
+        </NavList>
+      </Nav>
+    </ThemeProvider>
   );
 };
 

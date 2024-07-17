@@ -14,6 +14,7 @@ const Form = styled(motion.form)`
   display: flex;
   flex-direction: column;
   gap: 20px;
+  margin-top: 100px;
 `;
 
 const Input = styled.input`
@@ -40,9 +41,10 @@ const SubmitButton = styled.button`
   border-radius: 4px;
   font-size: 1em;
   cursor: pointer;
+  transition: 0.5s;
 
   &:hover {
-    background-color: ${(props) => props.theme.colors.primary};
+    opacity: 0.7;
   }
 `;
 

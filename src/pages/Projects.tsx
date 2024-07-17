@@ -14,10 +14,14 @@ flex-direction: column;
 
 const ProjectsGrid = styled.div`
   display: grid;
-  
+  margin-top: 50px;
   gap: 20px;
   
 `;
+
+const H2 = styled.h2`
+margin-top: 120px;
+`
 
 const A = styled.a`
 text-decoration: none;
@@ -51,7 +55,7 @@ const projects = [
 const Projects: React.FC = () => {
   return (
     <Container>
-      <h2>Meus Projetos</h2>
+      <H2>Meus Projetos</H2>
       <ProjectsGrid>
         {projects.map((project, index) => (
           <A href={project.link} key={index} target="_blank" rel="noopener noreferrer">
