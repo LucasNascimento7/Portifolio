@@ -184,6 +184,7 @@ justify-content: center;
   padding: 10px 20px;
   width: 100%;
   position: fixed;
+  
 `,xF=he.ul`
   list-style: none;
   display: flex;
