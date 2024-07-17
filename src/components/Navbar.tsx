@@ -13,6 +13,7 @@ justify-content: center;
   padding: 10px 20px;
   width: 100%;
   position: fixed;
+  
 `;
 
 const NavList = styled.ul`
